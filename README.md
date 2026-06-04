@@ -34,17 +34,23 @@ Code
 1. Clone the repo:
    git clone https://github.com/June-del/iris_app.git
    cd iris_app
-2. Create a virtual environment:
+   
+3. Create a virtual environment:
 python -m venv venv
 .\venv\Scripts\activate
-3. Install dependencies:
+
+5. Install dependencies:
 pip install -r requirements.txt
-4. Train the model:
+
+7. Train the model:
 python train_model.py
-5. Run the app:
+
+9. Run the app:
 python app.py
-6. Open in browser:
+
+11. Open in browser:
 http://127.0.0.1:5000
+
 📱 Run on Phone
 Connect your phone to the same Wi‑Fi as your computer
 Use the IP shown in Flask logs (e.g., http://192.168.137.99:5000)
